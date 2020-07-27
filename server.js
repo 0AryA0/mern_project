@@ -7,11 +7,7 @@ const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
 const app = express();
 
-/*
-app.use(bodyparser.urlencoded({extended: true}));
-app.use(bodyparser.json);
-
-*/
+//make git m = "message"
 
 //db config (database uri from keys)
 const db = require('./config/keys').mongoURI;
